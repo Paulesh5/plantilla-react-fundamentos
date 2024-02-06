@@ -18,12 +18,12 @@
   },
   "metro": [
     {
-      "nombre": "Ruta456",
+      "nombre": "Ruta45",
       "sector": "Sur-norte",
       "salida": "Quitumbe",
       "llegada": "Labrador",
       "maquinista": "Juan",
-      "detalles": "Prueba123",
+      "detalles": "Prueba1234",
       "id": "ace474f7-c625-4905-a94d-6dc972148b8f"
     },
     {

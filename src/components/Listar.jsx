@@ -16,7 +16,7 @@ const Listar = ({estado, setIdmetro}) => {
             (async function () {
                 try {
                     // FETCH a la API y convertir en JSON la respuesta
-                    const respuesta = await (await fetch("http://localhost:3000/metro")).json()
+                    const respuesta = await (await fetch("https://65c18ce1dc74300bce8db076.mockapi.io/metro")).json()
                     // Asignar el resultado a la variable setRutas
                     setRutas(respuesta)
                     console.log("petición");
@@ -33,7 +33,7 @@ const Listar = ({estado, setIdmetro}) => {
         try {
             const confirmar = confirm("Vas a aliminar una ruta")
             if (confirmar) {
-                const url = `http://localhost:3000/metro/${id}`
+                const url = `https://65c18ce1dc74300bce8db076.mockapi.io/metro/${id}`
                 await fetch(url, {
                     method: 'DELETE',
                 })
